@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+  body {
+    width: 1200px;
+    height: 630px;
+    overflow: hidden;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .card {
+    width: 1200px;
+    height: 630px;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  /* Subtle grid pattern */
+  .card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  /* Warm amber glow top-right */
+  .card::after {
+    content: '';
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(245,158,11,0.08) 0%, transparent 70%);
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    padding: 0 80px;
+  }
+
+  .logo-container {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Subtle glow behind logo */
+    filter: drop-shadow(0 0 40px rgba(72, 191, 222, 0.15));
+  }
+
+  .logo-container img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .brand {
+    font-size: 52px;
+    font-weight: 800;
+    color: #f8fafc;
+    letter-spacing: -1.5px;
+    line-height: 1;
+  }
+
+  .brand .dot-ai {
+    color: #f59e0b;
+  }
+
+  .divider {
+    width: 64px;
+    height: 3px;
+    background: linear-gradient(90deg, #f59e0b, #48BFDE);
+    border-radius: 2px;
+  }
+
+  .tagline {
+    font-size: 26px;
+    font-weight: 400;
+    color: #94a3b8;
+    line-height: 1.4;
+    max-width: 560px;
+  }
+
+  .url {
+    font-size: 18px;
+    font-weight: 600;
+    color: #64748b;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="content">
+      <div class="logo-container">
+        <img src="giw_bot.svg" alt="logo">
+      </div>
+      <div class="text">
+        <div class="brand">get<span style="letter-spacing:0.12em">&#8202;</span>it<span style="letter-spacing:0.06em">&#8202;</span>working<span class="dot-ai">.ai</span></div>
+        <div class="divider"></div>
+        <div class="tagline">AI agents and LLM integrations working for your business.</div>
+        <div class="url">getitworking.ai</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
