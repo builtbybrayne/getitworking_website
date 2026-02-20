@@ -17,7 +17,7 @@
           <h3 class="text-surface-900 text-lg font-semibold leading-tight mb-3">Integrations Vs. Agents</h3>
           <p class="text-surface-600 text-base leading-normal">
             ChatGPT and Claude integrations that fit your operations.
-            In-house AI agents handling real work.
+            MCP servers or in-house AI agents handling real work.
             Initial production experiments that prove this technology belongs in your business.
           </p>
         </div>
@@ -37,7 +37,7 @@
           </span>
           <h3 class="text-surface-900 text-lg font-semibold leading-tight mb-3">Positioned For What's Next</h3>
           <p class="text-surface-600 text-base leading-normal">
-            The LLM ecosystem is moving fast. Getting a foot in the door positions you to move quickly when the next capability lands.
+            The agentic ecosystem is moving fast. Getting a foot in the door positions you to move quickly when the next capability lands.
           </p>
         </div>
       </div>
@@ -113,23 +113,23 @@
 
       <!-- Reverse 2-column: blocks left, prose right -->
       <div class="flex flex-col lg:flex-row gap-12 items-start">
-        <div class="flex-1 flex flex-col gap-3">
-          <div class="flex items-center gap-4 p-4 bg-surface-800 rounded-lg">
+        <div class="w-full lg:flex-1 flex flex-col gap-3">
+          <div class="flex items-center justify-center gap-4 p-4 bg-surface-800 rounded-lg">
             <i class="pi pi-check text-primary text-xl"/>
             <span class="text-white text-lg font-medium">Practical</span>
           </div>
-          <div class="flex items-center gap-4 p-4 bg-surface-800 rounded-lg">
+          <div class="flex items-center justify-center gap-4 p-4 bg-surface-800 rounded-lg">
             <i class="pi pi-shield text-primary text-xl"/>
             <span class="text-white text-lg font-medium">No-hype</span>
           </div>
-          <div class="flex items-center gap-4 p-4 bg-surface-800 rounded-lg">
+          <div class="flex items-center justify-center gap-4 p-4 bg-surface-800 rounded-lg">
             <i class="pi pi-bullseye text-primary text-xl"/>
             <span class="text-white text-lg font-medium">Outcome-focused</span>
           </div>
         </div>
         <div class="flex-1">
           <p class="text-lg text-gray-400 leading-relaxed">
-            Already have people, devs or non-technical, who could be using AI more effectively?
+            Already have people in your team you wish would be using AI more effectively - whether dev or non-technical?
           </p>
           <p class="text-lg text-gray-400 leading-relaxed mt-4">
             Practical, no-hype training that gets your existing team working with AI tools in their own roles.

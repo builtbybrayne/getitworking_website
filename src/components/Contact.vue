@@ -6,15 +6,16 @@ import Button from 'primevue/button'
   <section id="contact" class="bg-surface-50 px-6 py-20 md:px-12 lg:px-20">
     <div class="max-w-3xl mx-auto text-center flex flex-col items-center gap-4">
       <h2 class="text-surface-900 font-bold text-4xl leading-tight">
-        If AI is on your mind and you're not sure where to start, that's exactly the conversation I'm here for.
+        Got a vision for AI in your business? Let's get something into production.
       </h2>
       <div class="flex flex-col md:flex-row items-center gap-4 mt-8">
-        <Button
-          label="Email me"
-          icon="pi pi-envelope"
-          rounded
-          @click="() => window.location.href = 'mailto:al@getitworking.ai?subject=AI%20for%20my%20business'"
-        />
+        <a href="mailto:al@getitworking.ai?subject=AI%20for%20my%20business">
+          <Button
+            label="Email me"
+            icon="pi pi-envelope"
+            rounded
+          />
+        </a>
       </div>
       <div class="flex flex-col md:flex-row items-center gap-4 mt-2">
         <a

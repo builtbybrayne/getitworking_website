@@ -9,15 +9,15 @@ const handleCTAClick = () => {
 <template>
   <section id="hero" class="bg-surface-900 pt-24 pb-12 px-12 lg:pt-28 lg:pb-20 lg:px-20">
     <div class="max-w-7xl mx-auto">
-      <div class="flex flex-wrap lg:flex-row flex-col-reverse gap-12 items-center">
+      <div class="flex flex-wrap lg:flex-row flex-col-reverse gap-1 lg:gap-12 items-center">
         <div class="flex-1 p-4">
-          <h1 class="text-5xl font-bold text-white mb-4 leading-tight">
+          <h1 class="text-3xl md:text-5xl font-bold text-white mb-4 leading-tight">
             Get <span class="text-primary underline">AI agents</span> and <span class="text-primary underline">LLM integrations</span> working for your business.
           </h1>
           <ul class="list-none flex flex-col gap-4 mt-8">
             <li class="flex items-center gap-2">
               <i class="pi pi-check-circle text-primary text-xl" />
-              <span class="text-gray-400 leading-normal">ChatGPT/Claude integrations</span>
+              <span class="text-gray-400 leading-normal">ChatGPT/Claude/MCP integrations</span>
             </li>
             <li class="flex items-center gap-2">
               <i class="pi pi-cog text-primary text-xl" />
@@ -28,7 +28,9 @@ const handleCTAClick = () => {
               <span class="text-gray-400 leading-normal">Team training</span>
             </li>
           </ul>
-          <Button label="Let's talk" rounded size="large" class="mt-12" @click="handleCTAClick" />
+          <div class="flex justify-center lg:justify-start mt-12">
+            <Button label="Let's talk" rounded size="large" @click="handleCTAClick" />
+          </div>
         </div>
         <div class="flex-1 text-center lg:text-right overflow-hidden">
           <svg viewBox="0 0 400 300" class="w-full max-w-md lg:w-auto lg:max-w-xl mx-auto" xmlns="http://www.w3.org/2000/svg">

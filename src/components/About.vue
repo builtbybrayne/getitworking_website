@@ -24,7 +24,7 @@
               <div class="flex flex-col gap-1">
                 <h3 class="text-base text-surface-900 font-medium leading-normal">Business experience</h3>
                 <p class="text-base text-surface-500 leading-normal">
-                  Four years running an AI startup. Product design, commercial strategy, engineering, fundraising, investor pressure, teams.
+                  Four years running an AI startup. Product design, commercial strategy, engineering, fundraising, investor pressure, and teams.
                 </p>
               </div>
             </div>
