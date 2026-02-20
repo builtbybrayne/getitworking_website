@@ -16,7 +16,7 @@ const handleCTAClick = () => {
 <template>
   <header :class="['fixed top-0 left-0 right-0 z-50 transition-all duration-300', scrolled ? 'bg-white/95 border-b border-gray-100 shadow-sm' : 'bg-transparent']">
     <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-      <span :class="['text-xl font-semibold transition-colors duration-300', scrolled ? 'text-surface-900' : 'text-white']">getitworking.ai</span>
+      <span :class="['text-xl font-semibold transition-colors duration-300', scrolled ? 'text-surface-900' : 'text-white']">GetItWorking.ai</span>
       <Button label="Let's talk" rounded @click="handleCTAClick" />
     </div>
   </header>
