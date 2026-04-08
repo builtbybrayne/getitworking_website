@@ -4,5 +4,6 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
-  status = 200
+  to = "https://lope.works"
+  status = 301
+  force = true

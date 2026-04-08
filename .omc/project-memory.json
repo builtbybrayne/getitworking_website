@@ -1,0 +1,189 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1775653493628,
+  "projectRoot": "/Users/al/Studio/projects/getitworking_website",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "vue",
+        "version": "3.5.0",
+        "category": "frontend"
+      },
+      {
+        "name": "vite",
+        "version": "7.3.1",
+        "category": "build"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "lint": "eslint .",
+      "preview": "vite preview"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": "ES modules",
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "dist": {
+      "path": "dist",
+      "purpose": "Distribution/build output",
+      "fileCount": 9,
+      "lastAccessed": 1775653493492,
+      "keyFiles": [
+        "Claude_AI_symbol.svg",
+        "apple-touch-icon.png",
+        "favicon-32x32.png",
+        "favicon.ico",
+        "headshot.jpg"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 14,
+      "lastAccessed": 1775653493493,
+      "keyFiles": [
+        "Claude_AI_symbol.svg",
+        "apple-touch-icon.png",
+        "favicon-32x32.png",
+        "favicon.ico",
+        "giw_bot.png"
+      ]
+    },
+    "raw_assets": {
+      "path": "raw_assets",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1775653493497,
+      "keyFiles": [
+        "headshot.jpg"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 3,
+      "lastAccessed": 1775653493498,
+      "keyFiles": [
+        "App.vue",
+        "index.css",
+        "main.js"
+      ]
+    },
+    "tmp_scaffold": {
+      "path": "tmp_scaffold",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1775653493499,
+      "keyFiles": [
+        "README.md",
+        "eslint.config.js",
+        "index.html",
+        "package.json",
+        "vite.config.js"
+      ]
+    },
+    "dist/assets": {
+      "path": "dist/assets",
+      "purpose": "Static assets",
+      "fileCount": 7,
+      "lastAccessed": 1775653493499,
+      "keyFiles": [
+        "index-BIfPu_eN.css",
+        "index-WMcfdWoH.js",
+        "primeicons-C6QP2o4f.woff2"
+      ]
+    },
+    "src/components": {
+      "path": "src/components",
+      "purpose": "UI components",
+      "fileCount": 8,
+      "lastAccessed": 1775653493500,
+      "keyFiles": [
+        "About.vue",
+        "Contact.vue",
+        "Footer.vue"
+      ]
+    },
+    "tmp_scaffold/public": {
+      "path": "tmp_scaffold/public",
+      "purpose": "Public files",
+      "fileCount": 1,
+      "lastAccessed": 1775653493501,
+      "keyFiles": [
+        "vite.svg"
+      ]
+    },
+    "tmp_scaffold/src": {
+      "path": "tmp_scaffold/src",
+      "purpose": "Source code",
+      "fileCount": 4,
+      "lastAccessed": 1775653493501,
+      "keyFiles": [
+        "App.css",
+        "App.jsx",
+        "index.css"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "netlify.toml",
+      "accessCount": 4,
+      "lastAccessed": 1775653910319,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1775653514375,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 1,
+      "lastAccessed": 1775653514778,
+      "type": "file"
+    },
+    {
+      "path": "vite.config.js",
+      "accessCount": 1,
+      "lastAccessed": 1775653517371,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
